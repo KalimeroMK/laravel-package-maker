@@ -15,13 +15,13 @@
  
   "autoload": {
     "psr-4": {
-      "AWK\\LaravelPackageMaker\\": "./src"
+      "Naoray\\LaravelPackageMaker\\": "./src"
     }
   },
   "minimum-stability": "dev",
   "autoload-dev": {
     "psr-4": {
-      "AWK\\LaravelPackageMaker\\Tests\\": "tests"
+      "Naoray\\LaravelPackageMaker\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -30,7 +30,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "AWK\\LaravelPackageMaker\\LaravelPackageMakerServiceProvider"
+        "Naoray\\LaravelPackageMaker\\LaravelPackageMakerServiceProvider"
       ]
     }
   },
