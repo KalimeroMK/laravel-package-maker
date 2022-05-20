@@ -1,6 +1,6 @@
 <?php
 
-namespace AWK\LaravelPackageMaker\Tests;
+namespace Naoray\LaravelPackageMaker\Tests;
 
 use Illuminate\Filesystem\Filesystem;
 use Orchestra\Testbench\TestCase as Orchestra;
